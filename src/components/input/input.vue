@@ -250,6 +250,7 @@
             }
             this.slotReady = true;
             this.resizeTextarea();
+            this.autofocus && this.focus();
         }
     };
 </script>
