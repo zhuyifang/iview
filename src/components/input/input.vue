@@ -248,6 +248,7 @@
                 this.prepend = false;
                 this.append = false;
             }
+            this.autofocus && this.focus();
             this.slotReady = true;
             this.resizeTextarea();
         }
