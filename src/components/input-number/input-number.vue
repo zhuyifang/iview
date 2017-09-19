@@ -274,6 +274,7 @@
         },
         mounted () {
             this.changeVal(this.currentValue);
+            this.autofocus && this.focus();
         },
         watch: {
             value (val) {
